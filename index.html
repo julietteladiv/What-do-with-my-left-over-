@@ -7,18 +7,24 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <head>
+    <div class="container">
       <h1>AI Menu Generator</h1>
-      <h2>What do with my left over ?</h2>
-      <p>
+      <h2>What to do with my left over ?</h2>
+      
+    </head>
+    <div class="form-container">
+    <p>
         Please give us 3 ingredients and we will give you 3 ideas for a dish
       </p>
-    </head>
-
     <form>
-      <input type="Type your 3 ingredients" />
-      <input type="submit" />
+      <input type="Type your 3 ingredients" placeholder="ie: Tomato, Cheese, Pasta" required
+      autocomplete="off"
+      autofocus
+      class="instructions"
+      id="instructions"/>
+      <input type="submit"class="submit-button" />
     </form>
+</div>
 
     <footer>
       The AI project is coded by
@@ -35,6 +41,8 @@
         >Netlify</a
       >
     </footer>
+</div>
+<head>
     <script src="src/index.js"></script>
   </body>
 </html>
