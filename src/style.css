@@ -1,0 +1,75 @@
+body {
+  background: linear-gradient(to top, #c79081 0%, #dfa579 100%);
+  background-repeat: no-repeat;
+  height: 100%;
+  margin: 0;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+html {
+  height: 100%;
+}
+.container {
+  max-width: 600px;
+  margin: 120px auto;
+}
+h1 {
+  line-height: 1.5;
+  font-size: 36px;
+  text-align: center;
+  color: white;
+}
+h2 {
+  line-height: 1.5;
+  font-size: 24px;
+  text-align: center;
+  color: white;
+}
+.form-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 30px;
+}
+p {
+  font-size: 20px;
+  padding-bottom: 10px;
+  opacity: 50%;
+  border-bottom: 1px solid burlywood;
+}
+form {
+  font-size: 20px;
+}
+.instructions {
+  border-radius: 50px;
+  border: 2px solid burlywood;
+  font-size: 16px;
+  width: 80%;
+  padding: 16px;
+  line-height: 20px;
+  text-align: center;
+  display: block;
+  margin: auto;
+  margin-bottom: 20px;
+}
+.submit-button {
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  display: block;
+  margin: auto;
+  background-color: burlywood;
+  color: white;
+  border-radius: 50px;
+  font-weight: 600;
+}
+footer {
+  margin-top: 20px;
+  text-align: center;
+  opacity: 60%;
+}
+a {
+  color: white;
+  font-weight: bold;
+}
