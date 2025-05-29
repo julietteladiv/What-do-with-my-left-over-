@@ -37,6 +37,7 @@ p {
   padding-bottom: 10px;
   opacity: 50%;
   border-bottom: 1px solid burlywood;
+  text-align: center;
 }
 form {
   font-size: 20px;
@@ -64,12 +65,39 @@ form {
   border-radius: 50px;
   font-weight: 600;
 }
-footer {
+.recipe {
+  background-color: white;
+  padding: 20px;
+  border-radius: 30px;
+  color: black;
   margin-top: 20px;
+}
+.recipe-contain {
+  display: flex;
+}
+footer {
+  margin-top: 10px;
   text-align: center;
   opacity: 60%;
 }
 a {
   color: white;
   font-weight: bold;
+}
+.hidden {
+  display: none;
+}
+.generating {
+  animation: blink-animation 1s steps(5, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
+@-webkit-keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
 }
